@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youtube</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <div class="full-container">
+      <div class="row">
+        <section id="header" class="col-xs-12">
+          <header class="site-header header">
+            <div class="row between-xs middle-xs">
+              <div class="header__logo-box">
+                <i class="bx bx-menu"></i>
+                <img class="header__logo-img" src="imgs/logo.svg" alt="logo" />
+              </div>
+              <div class="header__logo-box">
+                <form class="header__form">
+                  <input
+                    class="header__input"
+                    name="search"
+                    type="text"
+                    placeholder="Search"
+                  />
+                  <!-- <button class="header__search" type="submit"><i class='bx bx-search' ></i></button> -->
+                </form>
+              </div>
+              <div class="header__logo-box">
+                <img
+                  class="header__person-img"
+                  src="imgs/ProfilePhoto.jpg"
+                  alt="person"
+                  width="32"
+                />
+              </div>
+            </div>
+          </header>
+        </section>
+        <section
+          id="sidebar"
+          class="sidebar invisible-scrollbar mostly-customized-scrollbar"
+        >
+          <nav class="sidebar__nav">
+            <ul class="sidebar__list">
+              <li class="sidebar__item sidebar__item--active">
+                <a class="sidebar__link row middle-xs" href="#">
+                  <i class="bx bxs-home sidebar__icon"></i>
+                  <span class="sidebar__title">Главная</span>
+                </a>
+              </li>
+              <li class="sidebar__item">
+                <a class="sidebar__link row middle-xs" href="https://www.youtube.com/feed/explore">
+                  <i class="bx bxs-bar-chart-alt-2 sidebar__icon"></i>
+                  <span class="sidebar__title">Навигатор</span>
+                </a>
+              </li>
+              <li class="sidebar__item">
+                <a class="sidebar__link row middle-xs" href="https://www.youtube.com/feed/subscriptions">
+                  <i class="bx bxs-party sidebar__icon"></i>
+                  <span class="sidebar__title">Подписки</span>
+                </a>
+              </li>
+              <li class="sidebar__item">
+                <a class="sidebar__link row middle-xs" href="https://www.youtube.com/feed/library">
+                  <i class="bx bxs-bar-chart-alt-2 sidebar__icon"></i>
+                  <span class="sidebar__title">Библиотека</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </section>
+        <section id="main" class="main">
+          <ul class="main__list row between-xs">
+            <li class="main__item item col-xs-12 col-sm-4 col-lg-3">
+              <a
+                class="main__link"
+                href="https://www.youtube.com/watch?v=vqLoGp1u76w"
+              >
+                <div class="item__box">
+                  <img
+                    class="item__img"
+                    src="imgs/tentakcham.jpg"
+                    alt="youtube-fon"
+                  />
+                  <div class="row box">
+                    <div class="col-xs-2">
+                      <img
+                        class="box__img"
+                        src="https://yt3.ggpht.com/DcfiB_2LP-dI5MOcZ5bcLRT7lU-bKNWJ021sXCKjHHqhBOs8pJINWJ5iEfToCQ4kHNyA7HmY=s68-c-k-c0x00ffffff-no-rj"
+                        alt="youtube-fon"
+                      />
+                    </div>
+                    <div class="col-xs-10">
+                      <h3 class="box__heading">
+                        Хамдам Собиров - Тентакчам (Премьера клипа, 2022)
+                      </h3>
+                      <p class="box__author">
+                        NevoMusic
+                        <span><i class="bx bxs-check-circle"></i></span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="main__item item col-xs-12 col-sm-4 col-lg-3">
+              <a class="main__link" href="https://www.youtube.com/watch?v=UdC-GhkTo7A">
+                <div class="item__box">
+                  <img
+                    class="item__img"
+                    src="imgs/sanjar.jpg"
+                    alt="youtube-fon"
+                  />
+                  <div class="row box">
+                    <div class="col-xs-2">
+                      <img
+                        class="box__img"
+                        src="https://yt3.ggpht.com/ytc/AKedOLQbsfVOa56dBSBTMix7mwGjuxxjf4SSHg2_e6O_=s68-c-k-c0x00ffffff-no-rj"
+                        alt="youtube-fon"
+                      />
+                    </div>
+                    <div class="col-xs-10">
+                      <h3 class="box__heading">ROSSIYA - MARKAZIY OSIYODA <br> / 1-QISM</h3>
+                      <p class="box__author">
+                        Sanjar Xo'ja
+                        <span><i class="bx bxs-check-circle"></i></span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="main__item item col-xs-12 col-sm-4 col-lg-3">
+              <a class="main__link" href="https://www.youtube.com/watch?v=NAr4P7TsQgI&t=1776s">
+                <div class="item__box">
+                  <img
+                    class="item__img"
+                    src="imgs/githab.jpg"
+                    alt="youtube-fon"
+                  />
+                  <div class="row box">
+                    <div class="col-xs-2">
+                      <img
+                        class="box__img"
+                        src="https://yt3.ggpht.com/pavRbfa6kJ9yqsA7ItF4pB6B-beG1n3sqSyGbh-yUsVNUnuxXm0wd4vaCTwBo4M83rykHldQyA=s88-c-k-c0x00ffffff-no-rj"
+                        alt="youtube-fon"
+                      />
+                    </div>
+                    <div class="col-xs-10">
+                      <h3 class="box__heading">Git va GitHub boshlang'ich Programmistlar uchun</h3>
+                      <p class="box__author">
+                        Samar Badriddinov
+                        <span><i class="bx bxs-check-circle"></i></span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="main__item item col-xs-12 col-sm-4 col-lg-3">
+              <a class="main__link" href="https://www.youtube.com/watch?v=GQOIaizx_mE&t=1347s">
+                <div class="item__box">
+                  <img
+                    class="item__img"
+                    src="imgs/bootstrab.jpg"
+                    alt="youtube-fon"
+                  />
+                  <div class="row box">
+                    <div class="col-xs-2">
+                      <img
+                        class="box__img"
+                        src="https://yt3.ggpht.com/ytc/AKedOLQNzoRWRDb8qjvzG8PwBiQfpJ-s5UbPIdSDxPX3=s68-c-k-c0x00ffffff-no-rj"
+                        alt="youtube-fon"
+                      />
+                    </div>
+                    <div class="col-xs-10">
+                      <h3 class="box__heading">#9 – Bootstrap. 3-Qism. Veb-dasturlash kursi</h3>
+                      <p class="box__author">
+                        Kadirov Dev
+                        <span><i class="bx bxs-check-circle"></i></span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="main__item item col-xs-12 col-sm-4 col-lg-3">
+              <a class="main__link" href="https://www.youtube.com/watch?v=MzRDRSyLzXA">
+                <div class="item__box">
+                  <img
+                    class="item__img"
+                    src="imgs/abdukarim.jpg"
+                    alt="youtube-fon"
+                  />
+                  <div class="row box">
+                    <div class="col-xs-2">
+                      <img
+                        class="box__img"
+                        src="https://yt3.ggpht.com/Xqo94ZAoeyHucudkWxOhML2BJwTBnNVOCqq2ACbiX-AGqGX6TKXBMFLLI58NrHY-muk_QFZE=s68-c-k-c0x00ffffff-no-rj"
+                        alt="youtube-fon"
+                      />
+                    </div>
+                    <div class="col-xs-10">
+                      <h3 class="box__heading">Halovati yo'qlar ko'rsin | @Abdukarim Mirzayev</h3>
+                      <p class="box__author">
+                        Abdukarim Mirzayev
+                        <span><i class="bx bxs-check-circle"></i></span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="main__item item col-xs-12 col-sm-4 col-lg-3">
+              <a class="main__link" href="https://www.youtube.com/watch?v=2LXi8UnaK0k">
+                <div class="item__box">
+                  <img
+                    class="item__img"
+                    src="imgs/abror.jpg"
+                    alt="youtube-fon"
+                  />
+                  <div class="row box">
+                    <div class="col-xs-2">
+                      <img
+                        class="box__img"
+                        src="https://yt3.ggpht.com/pcH7EHSuRk2DklXekAQGtb_Nx7igVa9osXu_EuELUUFEZ6KW9BLbvtQrW5tOxVpP-0jJKNAx7g=s68-c-k-c0x00ffffff-no-rj"
+                        alt="youtube-fon"
+                      />
+                    </div>
+                    <div class="col-xs-10">
+                      <h3 class="box__heading">Кўринмас иплар -АБРОР МУХТОР АЛИЙ -</h3>
+                      <p class="box__author">
+                        Аброр Мухтор Алий
+                        <span><i class="bx bxs-check-circle"></i></span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="main__item item col-xs-12 col-sm-4 col-lg-3">
+              <a class="main__link" href="https://www.youtube.com/watch?v=k1jCNXLkNoo&t=11s">
+                <div class="item__box">
+                  <img
+                    class="item__img"
+                    src="imgs/turfa.jpg"
+                    alt="youtube-fon"
+                  />
+                  <div class="row box">
+                    <div class="col-xs-2">
+                      <img
+                        class="box__img"
+                        src="https://yt3.ggpht.com/ytc/AKedOLT-TScSdSLGFJM1XA_4fpnGoElaPjV4-_SROg-uFA=s68-c-k-c0x00ffffff-no-rj"
+                        alt="youtube-fon"
+                      />
+                    </div>
+                    <div class="col-xs-10">
+                      <h3 class="box__heading">РОССИЯ БОРАСИДА БАЙДЕН УЗИНИНГ НИЯТИГА ЕТДИ</h3>
+                      <p class="box__author">
+                        TURFA OLAM
+                        <span><i class="bx bxs-check-circle"></i></span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="main__item item col-xs-12 col-sm-4 col-lg-3">
+              <a class="main__link" href="https://www.youtube.com/watch?v=wAYFUyREfvM">
+                <div class="item__box">
+                  <img
+                    class="item__img"
+                    src="imgs/xurmo.jpg"
+                    alt="youtube-fon"
+                  />
+                  <div class="row box">
+                    <div class="col-xs-2">
+                      <img
+                        class="box__img"
+                        src="https://yt3.ggpht.com/DTvyyEzZdoQchiPPyzzlF4rJw_FDS85UyOI9WKywvMDL_Bf0t854SXo5fpesZBy89aps_RNFCw=s68-c-k-c0x00ffffff-no-rj"
+                        alt="youtube-fon"
+                      />
+                    </div>
+                    <div class="col-xs-10">
+                      <h3 class="box__heading">Muzlatilgan insonni tiriltirish mumkinmi? Krionika haqida batafsil....</h3>
+                      <p class="box__author">
+                        XURMO
+                        <span><i class="bx bxs-check-circle"></i></span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="main__item item col-xs-12 col-sm-4 col-lg-3">
+              <a class="main__link" href="https://www.youtube.com/watch?v=4CUqbn7TYYs">
+                <div class="item__box">
+                  <img
+                    class="item__img"
+                    src="imgs/subyektiv.jpg"
+                    alt="youtube-fon"
+                  />
+                  <div class="row box">
+                    <div class="col-xs-2">
+                      <img
+                        class="box__img"
+                        src="https://yt3.ggpht.com/p27mWEcEeVUvRB012pRSmZZgEP27AWUJk0_fjFaV5c8YWNrxShLAnzaG8E3UNFCbBKa3puJd=s48-c-k-c0x00ffffff-no-rj"
+                        alt="youtube-fon"
+                      />
+                    </div>
+                    <div class="col-xs-10">
+                      <h3 class="box__heading">Milliardlab pullarimizni shilayotgan kiber-jinoiy imperiya | SUBYEKTIV</h3>
+                      <p class="box__author">
+                        SUBYEKTIV
+                        <span><i class="bx bxs-check-circle"></i></span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="main__item item col-xs-12 col-sm-4 col-lg-3">
+              <a class="main__link" href="https://www.youtube.com/watch?v=OgzWWZ6PVYk&t=1s">
+                <div class="item__box">
+                  <img
+                    class="item__img"
+                    src="imgs/davron.jpg"
+                    alt="youtube-fon"
+                  />
+                  <div class="row box">
+                    <div class="col-xs-2">
+                      <img
+                        class="box__img"
+                        src="https://yt3.ggpht.com/ytc/AKedOLR4i6ZjHtPFar4ixySljlLq6giamDm6t1eayJZk=s48-c-k-c0x00ffffff-no-rj"
+                        alt="youtube-fon"
+                      />
+                    </div>
+                    <div class="col-xs-10">
+                      <h3 class="box__heading">XOTIRANI Rivojlantirishni 4 ta SIRI  [MNEMONIST Kundaligi#2]</h3>
+                      <p class="box__author">
+                        DOVRANBEK TURDIEV
+                        <span><i class="bx bxs-check-circle"></i></span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="main__item item col-xs-12 col-sm-4 col-lg-3">
+              <a class="main__link" href="https://www.youtube.com/watch?v=7Tz21cXo8uE">
+                <div class="item__box">
+                  <img
+                    class="item__img"
+                    src="imgs/kun.jpg"
+                    alt="youtube-fon"
+                  />
+                  <div class="row box">
+                    <div class="col-xs-2">
+                      <img
+                        class="box__img"
+                        src="https://yt3.ggpht.com/ytc/AKedOLSO4B8B8Cmzuh1CmYJPFIBdbFjwh8mrLN9yTQUo=s48-c-k-c0x00ffffff-no-rj"
+                        alt="youtube-fon"
+                      />
+                    </div>
+                    <div class="col-xs-10">
+                      <h3 class="box__heading">Shimoliy Koreyaning yangi raketasi qanchalik qudratli?</h3>
+                      <p class="box__author">
+                        KunUZ
+                        <span><i class="bx bxs-check-circle"></i></span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="main__item item col-xs-12 col-sm-4 col-lg-3">
+              <a class="main__link" href="https://www.youtube.com/watch?v=wdYbLBoJQ0w">
+                <div class="item__box">
+                  <img
+                    class="item__img"
+                    src="imgs/boyvik.jpg"
+                    alt="youtube-fon"
+                  />
+                  <div class="row box">
+                    <div class="col-xs-2">
+                      <img
+                        class="box__img"
+                        src="https://yt3.ggpht.com/ytc/AKedOLS3o15IUNjEgE7JtNvfonTfjdAjiL9RYCNYnxRY=s68-c-k-c0x00ffffff-no-rj"
+                        alt="youtube-fon"
+                      />
+                    </div>
+                    <div class="col-xs-10">
+                      <h3 class="box__heading">СИЛЬНЫЙ ВОЕННЫЙ ФИЛЬМ НА РЕАЛЬНЫХ СОБЫТИЯХ!</h3>
+                      <p class="box__author">
+                        Империя Кино
+                        <span><i class="bx bxs-check-circle"></i></span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="main__item item col-xs-12 col-sm-4 col-lg-3">
+              <a class="main__link" href="https://www.youtube.com/watch?v=SramvMGMit8">
+                <div class="item__box">
+                  <img
+                    class="item__img"
+                    src="imgs/tasodif.jpg"
+                    alt="youtube-fon"
+                  />
+                  <div class="row box">
+                    <div class="col-xs-2">
+                      <img
+                        class="box__img"
+                        src="https://yt3.ggpht.com/aWnMWEWrl6y74K_CTzVeRct-3pmesOvWtWcMzbNiFNCjG2ZvDPacebgV33py0e42QPQqlDF1NR0=s48-c-k-c0x00ffffff-no-rj"
+                        alt="youtube-fon"
+                      />
+                    </div>
+                    <div class="col-xs-10">
+                      <h3 class="box__heading">Stress bizga nega kerak ?</h3>
+                      <p class="box__author">
+                        TASODIFGA ALDANGANLAR
+                        <span><i class="bx bxs-check-circle"></i></span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="main__item item col-xs-12 col-sm-4 col-lg-3">
+              <a class="main__link" href="https://www.youtube.com/watch?v=WXDDLyTI2Dk">
+                <div class="item__box">
+                  <img
+                    class="item__img"
+                    src="imgs/dasturlash.jpg"
+                    alt="youtube-fon"
+                  />
+                  <div class="row box">
+                    <div class="col-xs-2">
+                      <img
+                        class="box__img"
+                        src="https://yt3.ggpht.com/ytc/AKedOLT42JSYdiK7vV3Kn9cibkJD6s8uJ6MhqfDKmOJw=s68-c-k-c0x00ffffff-no-rj"
+                        alt="youtube-fon"
+                      />
+                    </div>
+                    <div class="col-xs-10">
+                      <h3 class="box__heading">Dasturlash o'zi nima?</h3>
+                      <p class="box__author">
+                        Najot Ta'lim
+                        <span><i class="bx bxs-check-circle"></i></span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="main__item item col-xs-12 col-sm-4 col-lg-3">
+              <a class="main__link" href="https://www.youtube.com/watch?v=o8WBvdecFlk">
+                <div class="item__box">
+                  <img
+                    class="item__img"
+                    src="imgs/mohirdev.jpg"
+                    alt="youtube-fon"
+                  />
+                  <div class="row box">
+                    <div class="col-xs-2">
+                      <img
+                        class="box__img"
+                        src="https://yt3.ggpht.com/bE3pnJ8QiYWAdzmxT4zjyJ8jpEqgdTFaYqqhVUJMk5sHzg8kTM84peHQ_c90GIYDpBaa_Jm9=s48-c-k-c0x00ffffff-no-rj"
+                        alt="youtube-fon"
+                      />
+                    </div>
+                    <div class="col-xs-10">
+                      <h3 class="box__heading">Kuchli dasturchi uchun muhim ko'nikmalar qaysi? | Anvar Narzullayev</h3>
+                      <p class="box__author">
+                        Mohirdev
+                        <span><i class="bx bxs-check-circle"></i></span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="main__item item col-xs-12 col-sm-4 col-lg-3">
+              <a class="main__link" href="https://www.youtube.com/watch?v=uUULF8ikQoY">
+                <div class="item__box">
+                  <img
+                    class="item__img"
+                    src="imgs/saidbek.jpg"
+                    alt="youtube-fon"
+                  />
+                  <div class="row box">
+                    <div class="col-xs-2">
+                      <img
+                        class="box__img"
+                        src="https://yt3.ggpht.com/ytc/AKedOLQaKVXROw4gmflww4LPNHPPdklQWlOfxIGbEo5B=s48-c-k-c0x00ffffff-no-rj"
+                        alt="youtube-fon"
+                      />
+                    </div>
+                    <div class="col-xs-10">
+                      <h3 class="box__heading">CSS ni o'rganamiz 1-qism</h3>
+                      <p class="box__author">
+                        Saidbek Arislonov
+                        <span><i class="bx bxs-check-circle"></i></span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>

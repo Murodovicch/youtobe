@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+  overflow: hidden;
+}
+.full-container {
+  padding: 0 24px;
+}
+.container {
+  width: 1400px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+#header {
+  padding-top: 12px;
+  margin-bottom: 25px;
+}
+
+.bx-menu {
+  font-size: 30px;
+  font-weight: 300;
+  margin-right: 24px;
+}
+.header__logo-img {
+  height: 24px;
+}
+
+.header__input {
+  min-width: 30vw;
+  padding: 6px;
+  font-size: 18px;
+}
+
+.header__person-img {
+  width: 40px;
+  height: 40px;
+}
+
+.site-header {
+  height: 32px;
+}
+
+#sidebar {
+  height: calc(100vh - 69px);
+  overflow-y: scroll;
+}
+
+.sidebar {
+  width: 16.666%;
+  padding: 0 0.5rem;
+}
+.main__link {
+  text-decoration: none;
+}
+
+#main {
+  height: calc(100vh - 69px);
+  overflow-y: scroll;
+}
+.main {
+  width: 83.33333%;
+  padding: 20px 30px;
+  background-color: #f9f9f9;
+}
+
+.main__list {
+  list-style: none;
+}
+
+.main__item {
+  margin-bottom: 30px;
+}
+.main__item h3, p {
+  font-weight: 500;
+}
+
+.item__img {
+  width: 100%;
+  height: 180px;
+  margin-bottom: 13px;
+}
+
+.box__heading {
+  font-size: 14px;
+  line-height: 16px;
+  color: #030303;
+  margin-bottom: 8px;
+}
+.box__author {
+  font-size: 14px;
+  line-height: 16px;
+  color: #606060;
+}
+
+.box__img {
+  border-radius: 50%;
+  width: 100%;
+}
+.sidebar__list {
+  list-style: none;
+}
+
+.sidebar__item--active i {
+  color: #000;
+}
+.sidebar__item {
+  margin-top: 10px;
+}
+.sidebar__item span {
+  margin-bottom: 40px;
+  font-size: 9px;
+  font-weight: 300;
+}
+.sidebar__item--active,
+.sidebar__item:hover {
+  background: #f4f4f4;
+}
+.sidebar__link {
+  text-decoration: none;
+  color: #030303;
+}
+.sidebar__icon {
+  font-size: 25px;
+  margin-right: 23px;
+}
+
+.sidebar__title {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+/* Scroll */
+
+/* Demonstrate a "mostly customized" scrollbar
+ * (won't be visible otherwise if width/height is specified) */
+*::-webkit-scrollbar {
+  width: 7px;
+  height: 8px;
+  background-color: #fff; /* or add it to the track */
+}
+
+/* Add a thumb */
+*::-webkit-scrollbar-thumb {
+  background: rgb(85, 85, 85);
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 1300px) {
+  .sidebar {
+    width: 60px;
+  }
+  .sidebar__link {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .sidebar__item--active {
+    background-color: transparent;
+  }
+  .sidebar__icon {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+  .main {
+    flex-grow: 1;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 770px) {
+  .main__item.col-xs-12 {
+    max-width: 50%;
+    flex-basis: 50%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .header__form {
+    display: none;
+  }
+}
